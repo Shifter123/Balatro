@@ -1,0 +1,254 @@
+{
+  "jokers": [
+    {
+      "id": "joker_1",
+      "name": "Joker",
+      "description": "+4 Mult",
+      "rarity": "common",
+      "type": "multiplier",
+      "cost": 4,
+      "effect": {
+        "type": "mult_add",
+        "value": 4
+      }
+    },
+    {
+      "id": "joker_2",
+      "name": "Greedy Joker",
+      "description": "+2 Mult for each Club card",
+      "rarity": "common",
+      "type": "utility",
+      "cost": 5,
+      "effect": {
+        "type": "mult_per_suit",
+        "suit": "clubs",
+        "value": 2
+      }
+    },
+    {
+      "id": "joker_3",
+      "name": "Lucky Joker",
+      "description": "30% chance to multiply score by 4",
+      "rarity": "common",
+      "type": "utility",
+      "cost": 4,
+      "effect": {
+        "type": "chance_mult",
+        "chance": 0.3,
+        "mult": 4
+      }
+    },
+    {
+      "id": "joker_4",
+      "name": "Softy",
+      "description": "+8 Chips",
+      "rarity": "common",
+      "type": "score_boost",
+      "cost": 4,
+      "effect": {
+        "type": "chip_add",
+        "value": 8
+      }
+    },
+    {
+      "id": "joker_5",
+      "name": "Riff-Raff",
+      "description": "+2 Mult for each Ace in hand",
+      "rarity": "common",
+      "type": "utility",
+      "cost": 4,
+      "effect": {
+        "type": "mult_per_rank",
+        "rank": 1,
+        "value": 2
+      }
+    },
+    {
+      "id": "joker_6",
+      "name": "Hemiola",
+      "description": "+1 Mult for every 2 pairs",
+      "rarity": "common",
+      "type": "utility",
+      "cost": 5,
+      "effect": {
+        "type": "mult_formula",
+        "formula": "pairs * 1"
+      }
+    },
+    {
+      "id": "joker_7",
+      "name": "Misprint",
+      "description": "+17 Mult",
+      "rarity": "common",
+      "type": "multiplier",
+      "cost": 4,
+      "effect": {
+        "type": "mult_add",
+        "value": 17
+      }
+    },
+    {
+      "id": "joker_8",
+      "name": "Droll Joker",
+      "description": "x0.25 Mult, +3 Mult per Flush",
+      "rarity": "uncommon",
+      "type": "utility",
+      "cost": 5,
+      "effect": {
+        "type": "mult_scale",
+        "base_mult": 0.25,
+        "per_flush": 3
+      }
+    },
+    {
+      "id": "joker_9",
+      "name": "Scholar",
+      "description": "+4 Chips for each Ace, King, Queen, Jack",
+      "rarity": "common",
+      "type": "score_boost",
+      "cost": 4,
+      "effect": {
+        "type": "chip_per_rank",
+        "ranks": [1, 11, 12, 13],
+        "value": 4
+      }
+    },
+    {
+      "id": "joker_10",
+      "name": "Business",
+      "description": "+3 Mult, -1 Hand per round",
+      "rarity": "uncommon",
+      "type": "economy",
+      "cost": 5,
+      "effect": {
+        "type": "mult_with_penalty",
+        "mult_add": 3,
+        "penalty": "hand_reduction"
+      }
+    },
+    {
+      "id": "joker_11",
+      "name": "Gros Michel",
+      "description": "x1.5 Mult",
+      "rarity": "common",
+      "type": "multiplier",
+      "cost": 4,
+      "effect": {
+        "type": "mult_multiply",
+        "value": 1.5
+      }
+    },
+    {
+      "id": "joker_12",
+      "name": "Even Steven",
+      "description": "+4 Mult for each even card in hand",
+      "rarity": "common",
+      "type": "utility",
+      "cost": 4,
+      "effect": {
+        "type": "mult_per_even",
+        "value": 4
+      }
+    },
+    {
+      "id": "joker_13",
+      "name": "Odd Todd",
+      "description": "+30 Chips for each odd card in hand",
+      "rarity": "common",
+      "type": "score_boost",
+      "cost": 4,
+      "effect": {
+        "type": "chip_per_odd",
+        "value": 30
+      }
+    },
+    {
+      "id": "joker_14",
+      "name": "Thrifty",
+      "description": "+1 Mult per hand, +4 Chips per card",
+      "rarity": "uncommon",
+      "type": "economy",
+      "cost": 5,
+      "effect": {
+        "type": "cumulative",
+        "mult_per_hand": 1,
+        "chip_per_card": 4
+      }
+    },
+    {
+      "id": "joker_15",
+      "name": "Beggars",
+      "description": "+3 Mult for each card held in hand",
+      "rarity": "uncommon",
+      "type": "utility",
+      "cost": 5,
+      "effect": {
+        "type": "mult_per_card",
+        "value": 3
+      }
+    },
+    {
+      "id": "joker_16",
+      "name": "Egg",
+      "description": "Gains x0.1 Mult when hand is played, Resets each round",
+      "rarity": "uncommon",
+      "type": "special",
+      "cost": 4,
+      "effect": {
+        "type": "stackable",
+        "gain": 0.1,
+        "reset": true
+      }
+    },
+    {
+      "id": "joker_17",
+      "name": "Sock",
+      "description": "+1 Mult per discard, Resets each round",
+      "rarity": "uncommon",
+      "type": "special",
+      "cost": 4,
+      "effect": {
+        "type": "stackable_discard",
+        "gain": 1,
+        "reset": true
+      }
+    },
+    {
+      "id": "joker_18",
+      "name": "Smeared Joker",
+      "description": "+2 Mult if hand contains a Flush or Straight",
+      "rarity": "uncommon",
+      "type": "utility",
+      "cost": 4,
+      "effect": {
+        "type": "conditional_mult",
+        "conditions": ["flush", "straight"],
+        "value": 2
+      }
+    },
+    {
+      "id": "joker_19",
+      "name": "Throwaway",
+      "description": "+4 Chips",
+      "rarity": "common",
+      "type": "score_boost",
+      "cost": 4,
+      "effect": {
+        "type": "chip_add",
+        "value": 4
+      }
+    },
+    {
+      "id": "joker_20",
+      "name": "Scary Joker",
+      "description": "+1 Mult for each King, Queen, Jack held in hand",
+      "rarity": "common",
+      "type": "utility",
+      "cost": 4,
+      "effect": {
+        "type": "mult_per_face",
+        "value": 1
+      }
+    }
+  ]
+}

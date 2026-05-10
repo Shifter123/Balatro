@@ -1,0 +1,19 @@
+[tool:gdlint]
+indentation = "tabs"
+max_line_length = 100
+max_class_length = 500
+max_function_length = 100
+max_line_spacing = 2
+space_before_function_call_parenthesis = false
+max_returns = 6
+max_branch_nesting = 4
+max_expressions = 20
+max_variables = 10
+disallow_trailing_whitespace = true
+ensure_newline_at_eof = true
+
+[gdlint]
+excluded_paths = [
+    "godot://internal/",
+    "res://.godot/"
+]

@@ -1,0 +1,44 @@
+# Godot-specific ignores
+.godot/
+*.import
+
+# Build outputs
+bin/
+*.pck
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+
+# Environment files
+.env
+.env.*
+*.env
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Export templates (large files)
+export_presets.cfg
+
+# User-specific files
+*.user
+*.godot/

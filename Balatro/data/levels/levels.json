@@ -1,0 +1,224 @@
+{
+  "levels": [
+    {
+      "id": "level_1_1",
+      "name": "The First ante",
+      "ante": 1,
+      "stage": 1,
+      "blind_ids": ["small_blind", "big_blind"],
+      "available_jokers": 2,
+      "shop_slots": 3,
+      "voucher_chance": 0.2
+    },
+    {
+      "id": "level_1_2",
+      "name": "The Second ante",
+      "ante": 1,
+      "stage": 1,
+      "blind_ids": ["small_blind", "big_blind"],
+      "available_jokers": 2,
+      "shop_slots": 3,
+      "voucher_chance": 0.2
+    },
+    {
+      "id": "level_2_1",
+      "name": "The Third ante",
+      "ante": 2,
+      "stage": 1,
+      "blind_ids": ["small_blind", "big_blind", "the_hook"],
+      "available_jorders": 2,
+      "shop_slots": 4,
+      "voucher_chance": 0.25
+    },
+    {
+      "id": "level_2_2",
+      "name": "The Fourth ante",
+      "ante": 2,
+      "stage": 1,
+      "blind_ids": ["small_blind", "big_blind", "the_gooper"],
+      "available_jokers": 2,
+      "shop_slots": 4,
+      "voucher_chance": 0.25
+    },
+    {
+      "id": "level_3_1",
+      "name": "The Fifth ante",
+      "ante": 3,
+      "stage": 2,
+      "blind_ids": ["small_blind", "big_blind", "the_psychic"],
+      "available_jokers": 3,
+      "shop_slots": 4,
+      "voucher_chance": 0.3
+    },
+    {
+      "id": "level_3_2",
+      "name": "The Sixth ante",
+      "ante": 3,
+      "stage": 2,
+      "blind_ids": ["small_blind", "big_blind", "the_ox"],
+      "available_jokers": 3,
+      "shop_slots": 4,
+      "voucher_chance": 0.3
+    },
+    {
+      "id": "level_4_1",
+      "name": "The Seventh ante",
+      "ante": 4,
+      "stage": 2,
+      "blind_ids": ["small_blind", "big_blind", "the_flimflam"],
+      "available_jokers": 3,
+      "shop_slots": 5,
+      "voucher_chance": 0.35
+    },
+    {
+      "id": "level_4_2",
+      "name": "The Eighth ante",
+      "ante": 4,
+      "stage": 2,
+      "blind_ids": ["small_blind", "big_blind", "the_thumbscrew"],
+      "available_jokers": 3,
+      "shop_slots": 5,
+      "voucher_chance": 0.35
+    },
+    {
+      "id": "boss_1",
+      "name": "The Wall",
+      "ante": 1,
+      "stage": 1,
+      "blind_ids": ["the_wall"],
+      "available_jokers": 1,
+      "shop_slots": 2,
+      "is_boss": true,
+      "voucher_chance": 0.1
+    },
+    {
+      "id": "boss_2",
+      "name": "The Club",
+      "ante": 2,
+      "stage": 1,
+      "blind_ids": ["the_club"],
+      "available_jokers": 1,
+      "shop_slots": 2,
+      "is_boss": true,
+      "voucher_chance": 0.1
+    },
+    {
+      "id": "boss_3",
+      "name": "The Head",
+      "ante": 3,
+      "stage": 2,
+      "blind_ids": ["the_head"],
+      "available_jokers": 1,
+      "shop_slots": 2,
+      "is_boss": true,
+      "voucher_chance": 0.1
+    },
+    {
+      "id": "boss_4",
+      "name": "The Wheel",
+      "ante": 4,
+      "stage": 2,
+      "blind_ids": ["the_wheel"],
+      "available_jokers": 1,
+      "shop_slots": 2,
+      "is_boss": true,
+      "voucher_chance": 0.1
+    }
+  ],
+  "blinds": [
+    {
+      "id": "small_blind",
+      "name": "Small Blind",
+      "type": "small",
+      "base_score": 200,
+      "reward": 3
+    },
+    {
+      "id": "big_blind",
+      "name": "Big Blind",
+      "type": "big",
+      "base_score": 400,
+      "reward": 4
+    },
+    {
+      "id": "the_hook",
+      "name": "The Hook",
+      "type": "boss",
+      "base_score": 600,
+      "reward": 5,
+      "effect": "Reduces hand size by 1"
+    },
+    {
+      "id": "the_gooper",
+      "name": "The Gooper",
+      "type": "boss",
+      "base_score": 700,
+      "reward": 6,
+      "effect": "Very large blind"
+    },
+    {
+      "id": "the_psychic",
+      "name": "The Psychic",
+      "type": "boss",
+      "base_score": 800,
+      "reward": 6,
+      "effect": "Requires High Card or below"
+    },
+    {
+      "id": "the_ox",
+      "name": "The Ox",
+      "type": "boss",
+      "base_score": 900,
+      "reward": 7,
+      "effect": "Double score needed"
+    },
+    {
+      "id": "the_flimflam",
+      "name": "The Flimflam",
+      "type": "boss",
+      "base_score": 1000,
+      "reward": 7,
+      "effect": "Discards 2 random cards per hand"
+    },
+    {
+      "id": "the_thumbscrew",
+      "name": "The Thumbscrew",
+      "type": "boss",
+      "base_score": 1100,
+      "reward": 8,
+      "effect": "Reduces Mult to 0"
+    },
+    {
+      "id": "the_wall",
+      "name": "The Wall",
+      "type": "boss",
+      "base_score": 1200,
+      "reward": 8,
+      "effect": "Extra large blind"
+    },
+    {
+      "id": "the_club",
+      "name": "The Club",
+      "type": "boss",
+      "base_score": 1300,
+      "reward": 9,
+      "effect": "Extra large blind"
+    },
+    {
+      "id": "the_head",
+      "name": "The Head",
+      "type": "boss",
+      "base_score": 1400,
+      "reward": 9,
+      "effect": "Extra large blind"
+    },
+    {
+      "id": "the_wheel",
+      "name": "The Wheel",
+      "type": "boss",
+      "base_score": 1500,
+      "reward": 10,
+      "effect": "Extra large blind"
+    }
+  ]
+}

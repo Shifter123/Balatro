@@ -1,0 +1,175 @@
+{
+  "items": [
+    {
+      "id": "item_1",
+      "name": "Backstreet",
+      "description": "+3 Mult",
+      "rarity": "common",
+      "cost": 4,
+      "effect": {
+        "type": "mult_add",
+        "value": 3
+      }
+    },
+    {
+      "id": "item_2",
+      "name": "Retainer",
+      "description": "Holds up to 3 cards from the deck",
+      "rarity": "common",
+      "cost": 4,
+      "effect": {
+        "type": "hold_slots",
+        "value": 3
+      }
+    },
+    {
+      "id": "item_3",
+      "name": "和数据",
+      "description": "Saves a card from being discarded",
+      "rarity": "common",
+      "cost": 4,
+      "effect": {
+        "type": "save_card",
+        "value": 1
+      }
+    },
+    {
+      "id": "item_4",
+      "name": "Banner",
+      "description": "+2 Chips",
+      "rarity": "common",
+      "cost": 4,
+      "effect": {
+        "type": "chip_add",
+        "value": 2
+      }
+    },
+    {
+      "id": "item_5",
+      "name": "Mystic",
+      "description": "+1 Mult",
+      "rarity": "common",
+      "cost": 3,
+      "effect": {
+        "type": "mult_add",
+        "value": 1
+      }
+    },
+    {
+      "id": "item_6",
+      "name": "Green Back",
+      "description": "$1 per hand played",
+      "rarity": "common",
+      "cost": 4,
+      "effect": {
+        "type": "money_per_hand",
+        "value": 1
+      }
+    },
+    {
+      "id": "item_7",
+      "name": "Merry Andy",
+      "description": "$2 per hand played, -1 Hand each round",
+      "rarity": "uncommon",
+      "cost": 5,
+      "effect": {
+        "type": "money_with_penalty",
+        "money": 2,
+        "penalty": "hand_reduction"
+      }
+    },
+    {
+      "id": "item_8",
+      "name": "Ouch!",
+      "description": "+4 Mult, -2 Chips",
+      "rarity": "common",
+      "cost": 4,
+      "effect": {
+        "type": "mult_chip_trade",
+        "mult_add": 4,
+        "chip_add": -2
+      }
+    },
+    {
+      "id": "item_9",
+      "name": "Jolly",
+      "description": "+2 Mult, +1 Joker slot",
+      "rarity": "uncommon",
+      "cost": 5,
+      "effect": {
+        "type": "bonus_with_slot",
+        "mult_add": 2,
+        "slot_add": 1
+      }
+    },
+    {
+      "id": "item_10",
+      "name": "Zebra",
+      "description": "+4 Chips for each unit, -1 Hand each round",
+      "rarity": "uncommon",
+      "cost": 5,
+      "effect": {
+        "type": "scaling_chip",
+        "chip_per_unit": 4,
+        "penalty": "hand_reduction"
+      }
+    },
+    {
+      "id": "item_11",
+      "name": "Rough Gems",
+      "description": "x1 Mult",
+      "rarity": "uncommon",
+      "cost": 5,
+      "effect": {
+        "type": "mult_multiply",
+        "value": 1.2
+      }
+    },
+    {
+      "id": "item_12",
+      "name": "Smiley Face",
+      "description": "+1 Mult when hand wins",
+      "rarity": "common",
+      "cost": 4,
+      "effect": {
+        "type": "conditional_mult",
+        "condition": "win",
+        "value": 1
+      }
+    },
+    {
+      "id": "item_13",
+      "name": "Shiny",
+      "description": "+3 Chips",
+      "rarity": "common",
+      "cost": 4,
+      "effect": {
+        "type": "chip_add",
+        "value": 3
+      }
+    },
+    {
+      "id": "item_14",
+      "name": "Dismal",
+      "description": "+1 Mult for each face card in hand",
+      "rarity": "uncommon",
+      "cost": 5,
+      "effect": {
+        "type": "mult_per_face",
+        "value": 1
+      }
+    },
+    {
+      "id": "item_15",
+      "name": "Toxic",
+      "description": "+2 Mult, -1 Hand each round",
+      "rarity": "uncommon",
+      "cost": 5,
+      "effect": {
+        "type": "mult_with_penalty",
+        "mult_add": 2,
+        "penalty": "hand_reduction"
+      }
+    }
+  ]
+}

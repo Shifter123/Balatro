@@ -1,0 +1,114 @@
+[gd_scene load_steps=2 format=3 uid="uid://hud_scene"]
+
+[ext_resource type="Script" path="res://src/scripts/ui/hud.gd" id="1"]
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="TopBar" type="HBoxContainer" parent="."]
+layer = 100
+
+[node name="RoundPanel" type="PanelContainer" parent="TopBar"]
+layout_mode = 2
+theme_override_styles/normal/corner_radius_top_left = 0
+theme_override_styles/normal/corner_radius_top_right = 0
+theme_override_styles/normal/corner_radius_bottom_right = 8
+theme_override_styles/normal/corner_radius_bottom_left = 8
+
+[node name="MarginContainer" type="MarginContainer" parent="TopBar/RoundPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 8
+
+[node name="RoundLabel" type="Label" parent="TopBar/RoundPanel/MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 20
+text = "Round 1/4"
+
+[node name="Spacer" type="Control" parent="TopBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ScorePanel" type="PanelContainer" parent="TopBar"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="TopBar/ScorePanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 8
+
+[node name="ScoreLabel" type="Label" parent="TopBar/ScorePanel/MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.314, 0.784, 0.471, 1)
+theme_override_font_sizes/font_size = 20
+text = "Score: 0"
+
+[node name="Spacer2" type="Control" parent="TopBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ChipsPanel" type="PanelContainer" parent="TopBar"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="TopBar/ChipsPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 8
+
+[node name="ChipsLabel" type="Label" parent="TopBar/ChipsPanel/MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.914, 0.271, 0.376, 1)
+theme_override_font_sizes/font_size = 20
+text = "Chips: 100"
+
+[node name="Spacer3" type="Control" parent="TopBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="BlindPanel" type="PanelContainer" parent="TopBar"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="TopBar/BlindPanel"]
+layout_mode = 2
+theme_override_constants/margin_left = 15
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 15
+theme_override_constants/margin_bottom = 8
+
+[node name="BlindLabel" type="Label" parent="TopBar/BlindPanel/MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.8, 0, 1)
+theme_override_font_sizes/font_size = 20
+text = "Blind: 300"
+
+[node name="BottomBar" type="HBoxContainer" parent="."]
+layer = 100
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -60.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="HandLabel" type="Label" parent="BottomBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Hand: -"
+horizontal_alignment = 1
+
+[node name="ScorePreview" type="Label" parent="BottomBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.314, 0.784, 0.471, 1)
+theme_override_font_sizes/font_size = 24
+text = "Score: 0"
+horizontal_alignment = 1
