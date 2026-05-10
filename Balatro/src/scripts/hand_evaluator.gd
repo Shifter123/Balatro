@@ -233,7 +233,7 @@ static func _check_flush(cards: Array[Card]) -> Dictionary:
 	for card in cards:
 		if not suit_counts.has(card.suit):
 			suit_counts[card.suit] = []
-		suit_counts[card.suit][card.suit].append(card)
+		suit_counts[card.suit].append(card)
 	
 	for suit in suit_counts:
 		if suit_counts[suit].size() >= 5:
