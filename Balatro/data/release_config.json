@@ -1,0 +1,293 @@
+{
+  "game_info": {
+    "name": "Balatro",
+    "developer": "Your Studio Name",
+    "publisher": "Your Publisher Name",
+    "release_date": "2026-06-01",
+    "version": "1.0.0",
+    "website": "https://your-website.com"
+  },
+  "steam": {
+    "app_id": 0,
+    "build_id": "",
+    "depots": {
+      "windows": {
+        "platform": "windows",
+        "architecture": "x64",
+        "depot_id": 0
+      },
+      "macos": {
+        "platform": "macos",
+        "architecture": "x64",
+        "depot_id": 0
+      },
+      "linux": {
+        "platform": "linux",
+        "architecture": "x64",
+        "depot_id": 0
+      }
+    },
+    "achievements": [
+      {
+        "id": "FIRST_WIN",
+        "name": "First Victory",
+        "description": "Win your first game",
+        "icon": "res://assets/achievements/first_win.png",
+        "hidden": false
+      },
+      {
+        "id": "WIN_10_GAMES",
+        "name": "Seasoned Player",
+        "description": "Win 10 games",
+        "icon": "res://assets/achievements/win_10.png",
+        "hidden": false
+      },
+      {
+        "id": "WIN_100_GAMES",
+        "name": "Master",
+        "description": "Win 100 games",
+        "icon": "res://assets/achievements/win_100.png",
+        "hidden": false
+      },
+      {
+        "id": "SCORE_1000",
+        "name": "High Scorer",
+        "description": "Score 1000 points in a single game",
+        "icon": "res://assets/achievements/score_1000.png",
+        "hidden": false
+      },
+      {
+        "id": "SCORE_5000",
+        "name": "Score Master",
+        "description": "Score 5000 points in a single game",
+        "icon": "res://assets/achievements/score_5000.png",
+        "hidden": false
+      },
+      {
+        "id": "ROYAL_FLUSH",
+        "name": "Royal Flush!",
+        "description": "Play a Royal Flush",
+        "icon": "res://assets/achievements/royal_flush.png",
+        "hidden": false
+      },
+      {
+        "id": "STRAIGHT_FLUSH",
+        "name": "Straight Flush!",
+        "description": "Play a Straight Flush",
+        "icon": "res://assets/achievements/straight_flush.png",
+        "hidden": false
+      },
+      {
+        "id": "FOUR_OF_A_KIND",
+        "name": "Four of a Kind!",
+        "description": "Play Four of a Kind",
+        "icon": "res://assets/achievements/four_kind.png",
+        "hidden": false
+      },
+      {
+        "id": "FULL_HOUSE",
+        "name": "Full House!",
+        "description": "Play a Full House",
+        "icon": "res://assets/achievements/full_house.png",
+        "hidden": false
+      },
+      {
+        "id": "FLUSH",
+        "name": "Flush!",
+        "description": "Play a Flush",
+        "icon": "res://assets/achievements/flush.png",
+        "hidden": false
+      },
+      {
+        "id": "STRAIGHT",
+        "name": "Straight!",
+        "description": "Play a Straight",
+        "icon": "res://assets/achievements/straight.png",
+        "hidden": false
+      },
+      {
+        "id": "THREE_OF_A_KIND",
+        "name": "Three of a Kind!",
+        "description": "Play Three of a Kind",
+        "icon": "res://assets/achievements/three_kind.png",
+        "hidden": false
+      },
+      {
+        "id": "PLAY_100_HANDS",
+        "name": "Card Shark",
+        "description": "Play 100 hands total",
+        "icon": "res://assets/achievements/play_100.png",
+        "hidden": false
+      },
+      {
+        "id": "PLAY_1000_HANDS",
+        "name": "Card Legend",
+        "description": "Play 1000 hands total",
+        "icon": "res://assets/achievements/play_1000.png",
+        "hidden": false
+      },
+      {
+        "id": "REACH_ANTE_8",
+        "name": "Endurance",
+        "description": "Reach Ante 8",
+        "icon": "res://assets/achievements/ante_8.png",
+        "hidden": false
+      },
+      {
+        "id": "PERFECT_RUN",
+        "name": "Perfect Run",
+        "description": "Win a round without taking damage",
+        "icon": "res://assets/achievements/perfect_run.png",
+        "hidden": true
+      }
+    ],
+    "leaderboards": [
+      {
+        "id": "HIGH_SCORE",
+        "name": "High Score",
+        "sort_method": "descending",
+        "display_type": "numeric"
+      },
+      {
+        "id": "FASTEST_WIN",
+        "name": "Fastest Win",
+        "sort_method": "ascending",
+        "display_type": "time_seconds"
+      },
+      {
+        "id": "TOTAL_WINS",
+        "name": "Total Wins",
+        "sort_method": "descending",
+        "display_type": "numeric"
+      }
+    ],
+    "cloud_save": {
+      "enabled": true,
+      "quota_bytes": 104857600,
+      "file_count": 10
+    },
+    "dlc": []
+  },
+  "store_page": {
+    "short_description": "A poker-themed roguelike deckbuilder where strategy meets chaos.",
+    "long_description": "Balatro is a unique blend of poker and roguelike elements. Build your deck, collect powerful Jokers, and master the art of hand evaluation in this addictive card game.\n\nFeatures:\n- 20+ unique Jokers with game-changing effects\n- Strategic deckbuilding and hand management\n- Procedurally generated runs for endless replayability\n- Multiple difficulty levels and boss encounters\n- Unlockable content and achievements\n\nPerfect your strategy, beat the odds, and become the ultimate card master!",
+    "tags": [
+      "Card Game",
+      "Roguelike",
+      "Deckbuilder",
+      "Strategy",
+      "Singleplayer",
+      "Poker",
+      "Indie"
+    ],
+    "features": [
+      "Single-player",
+      "Steam Achievements",
+      "Steam Cloud",
+      "Steam Leaderboards"
+    ],
+    "languages": [
+      "English",
+      "Simplified Chinese"
+    ],
+    "genres": [
+      "Strategy",
+      "Card Game",
+      "Roguelike"
+    ],
+    "release_state": "coming_soon",
+    "visibility": "public",
+    "age_rating": {
+      "esrb": "Everyone",
+      "pegi": "3",
+      "content_descriptors": []
+    },
+    "pricing": {
+      "currency": "USD",
+      "initial_price": 999,
+      "final_price": 999,
+      "discount_percentage": 0
+    },
+    "screenshots": [
+      {
+        "id": 1,
+        "path": "res://assets/screenshots/screenshot_1.png",
+        "caption": "Main gameplay screen"
+      },
+      {
+        "id": 2,
+        "path": "res://assets/screenshots/screenshot_2.png",
+        "caption": "Joker selection"
+      },
+      {
+        "id": 3,
+        "path": "res://assets/screenshots/screenshot_3.png",
+        "caption": "Shop interface"
+      },
+      {
+        "id": 4,
+        "path": "res://assets/screenshots/screenshot_4.png",
+        "caption": "Boss battle"
+      },
+      {
+        "id": 5,
+        "path": "res://assets/screenshots/screenshot_5.png",
+        "caption": "Achievement unlocked"
+      }
+    ],
+    "trailers": [
+      {
+        "id": 1,
+        "name": "Announcement Trailer",
+        "source": "youtube",
+        "video_id": ""
+      }
+    ],
+    "capsule_images": {
+      "main": "res://assets/store/capsule_main.png",
+      "header": "res://assets/store/header.png",
+      "small": "res://assets/store/capsule_small.png"
+    }
+  },
+  "build_config": {
+    "godot_version": "4.2.2",
+    "export_presets": [
+      {
+        "platform": "windows",
+        "preset_name": "Windows Desktop",
+        "binary_name": "balatro.exe",
+        "features": ["steam"]
+      },
+      {
+        "platform": "macos",
+        "preset_name": "macOS",
+        "binary_name": "balatro.app",
+        "features": ["steam"]
+      },
+      {
+        "platform": "linux",
+        "preset_name": "Linux/X11",
+        "binary_name": "balatro",
+        "features": ["steam"]
+      }
+    ],
+    "compression": {
+      "method": "lz4",
+      "level": 6
+    },
+    "encryption": {
+      "enabled": false
+    }
+  },
+  "content_rating": {
+    "violence": "none",
+    "blood": "none",
+    "gore": "none",
+    "sexual_content": "none",
+    "nudity": "none",
+    "language": "none",
+    "alcohol": "none",
+    "drugs": "none",
+    "gambling": "fantasy"
+  }
+}
